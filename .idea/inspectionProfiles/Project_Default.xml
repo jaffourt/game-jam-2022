@@ -1,0 +1,30 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="shapely" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="db_name" />
+          <option value="user" />
+          <option value="password" />
+          <option value="host" />
+          <option value="docker.models" />
+          <option value="docker.api.build" />
+          <option value="docker.errors" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
